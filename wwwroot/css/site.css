@@ -1,0 +1,37 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: navajowhite;
+}
+
+.login-container, .register-container {
+    background-color: #fff;
+    padding: 50px;
+    border-radius: 8px;
+}
+
+    .login-container h2, .register-container h2 {
+        text-align: center;
+    }
+
+    .login-container label, .register-container label {
+        display: block;
+        margin-bottom: 8px;
+    }
+
+    .login-container input, .register-container input {
+        width: 100%;
+        padding: 8px;
+        margin-bottom: 12px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+    }
+
+    .login-container button, .register-container button {
+        width: 100%;
+        padding: 10px;
+        background-color: #007bff;
+        color: white;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+    }

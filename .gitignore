@@ -1,0 +1,15 @@
+# Ignore Visual Studio files 
+.vs/ 
+*.user 
+*.suo 
+ECHO is on.
+# Ignore build directories 
+bin/ 
+obj/ 
+ECHO is on.
+# Ignore logs 
+*.log 
+ECHO is on.
+# Ignore other temporary files 
+*.lock 
+*.vsidx 

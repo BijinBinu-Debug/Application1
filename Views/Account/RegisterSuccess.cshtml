@@ -1,0 +1,53 @@
+﻿@model LoginApp.Models.User
+@{
+    ViewData["Title"] = "Registration Successful";
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Successful</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: navajowhite;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .container {
+            background-color: #fff;
+            padding: 50px;
+            border-radius: 8px;
+        }
+
+        h2 {
+            text-align: center;
+        }
+
+        p {
+            text-align: center;
+            margin-bottom: 15px;
+        }
+
+        .details {
+            font-size: 16px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>Registration Successful</h2>
+        <p>Your registration details:</p>
+        <div class="details">
+            <p><strong>Name:</strong> @Model.Name</p>
+            <p><strong>Email:</strong> @Model.Email</p>
+            <p><strong>Username:</strong> @Model.Username</p>
+        </div>
+        <p><a href="/Account/Login">Go to Login</a></p>
+    </div>
+</body>
+</html>
